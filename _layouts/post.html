@@ -1,45 +1,44 @@
 ---
-layout: default
+layout: base
 ---
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+{% if page.cover_image %}
+<div class="article-cover">
+    <div>
+        <img src="/images/{{ page.cover_image }}" class="image">
+    </div>
 </div>
+{% endif %}
+<article>
 
+    <div class="container">
+        <header>
+            <div class="meta">
+                By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
+                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            </div>
+            <h1 class="title">{{ page.title }}</h1>
+            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+        </header>
 
-<!--
-<hr>
-<div class="copyright">
-<p><small><small>from:</small><a href='{{page.url}}'><small>cellier's blog</small></small></a></p>
-</div>
--->
+        <section>
+            {{ content }}
+            {% include _social.html %}
+        </section>
 
-<!-- 多说评论框 start -->   
-<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="cellier.me{{page.url}}"> 
-</div> 
-<!-- 多说评论框 end --> 
-<!-- 多说公共JS代码 start (一个网页只需插入一次) --> 
-<script type="text/javascript"> var duoshuoQuery = {short_name:"cellier-me"};         (function() {                 var ds = document.createElement('script');                 ds.type = 'text/javascript';ds.async = true;                 ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';                 ds.charset = 'UTF-8';                 (document.getElementsByTagName('head')[0]                  || document.getElementsByTagName('body')[0]).appendChild(ds);         })();         
-</script> 
-<!-- 多说公共JS代码 end -->
+        <footer>
+            <address>
+               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
+                <span class="muted">{{ page.author.bio }}</span>
+                </p>
+            </address>
 
+        </footer>
 
-
-<div class="related">
-  <span><small>其它文章</small></span>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h7>
-          <a href="{{ post.url }}" target="_self">
-            <small>{{ post.title }}</small>
-
-            <!--{{ post.date | date_to_string }}-->
-          </a>
-        </h7>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+        {% if site.inc.disqus.shortname %}
+        <section>
+            {% include _disqus.html %}
+        </section>
+        {% endif %}
+    </div>
+</article>
