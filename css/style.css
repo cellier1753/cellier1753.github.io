@@ -70,13 +70,10 @@ h2 {
     font-weight: bold;
 }
 
-h1 a{
-    text-decoration: underline;
-    color: black;
-}
 
 p a{
     text-decoration: underline;
+    -webkit-font-smoothing: antialiased;
     color: black;
 }
 
