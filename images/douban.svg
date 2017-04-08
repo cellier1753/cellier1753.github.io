@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>douban</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="shengbixing.com" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-498.000000, -1236.000000)" id="social-media">
+            <g transform="translate(128.000000, 1140.000000)">
+                <g id="social_icons" transform="translate(10.000000, 36.000000)">
+                    <g id="douban" transform="translate(360.000000, 60.000000)">
+                        <rect id="bg" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+                        <path d="M0.589973393,9 L21.4100266,9 L21.4100266,11.3917143 L0.589973393,11.3917143 L0.589973393,9 Z M2.39994399,23.2418571 L2.39994399,13.8887143 L19.6008262,13.8887143 L19.6008262,23.2418571 L2.39994399,23.2418571 Z M4.8946226,16.2788571 L4.8946226,20.8517143 L17.1323344,20.8517143 L17.1323344,16.2788571 L4.8946226,16.2788571 Z M15.8799888,28.6334286 L22,28.6334286 L22,31 L0,31 L0,28.6334286 L6.4119171,28.6334286 C5.82425431,27.3747143 5.05944546,26.0232857 4.10978855,24.5705 L6.4119171,23.6402143 C7.3253746,25.0199286 8.13947626,26.6856429 8.8619241,28.6334286 L13.2166363,28.6334286 C14.0784904,27.1303571 14.8363675,25.4630714 15.4871867,23.6402143 L17.9887971,24.5705 C17.3341269,26.1089286 16.6278532,27.4642857 15.8799888,28.6334286 Z" fill="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

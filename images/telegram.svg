@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="shengbixing.com" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-199.000000, -1296.000000)" id="social-media">
+            <g transform="translate(128.000000, 1140.000000)">
+                <g id="social_icons" transform="translate(10.000000, 36.000000)">
+                    <g id="telegram" transform="translate(61.000000, 120.000000)">
+                        <rect id="bg" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="40" height="40"></rect>
+                        <g transform="translate(0.000000, 6.000000)" fill-rule="nonzero">
+                            <ellipse id="Oval" fill="#231F20" cx="13.998209" cy="13.998209" rx="13.998209" ry="13.998209"></ellipse>
+                            <path d="M20.8089552,8.05253731 L18.3092537,20.6567164 C18.3092537,20.6567164 17.959403,21.5307463 16.9958209,21.1110448 L11.2262687,16.6877612 L9.12835821,15.6728358 L5.59880597,14.4859701 C5.59880597,14.4859701 5.05671642,14.2937313 5.00179104,13.8740299 C4.94686567,13.4543284 5.61373134,13.2268657 5.61373134,13.2268657 L19.6531343,7.71940299 C19.6531343,7.71940299 20.8089552,7.21313433 20.8089552,8.05253731 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M10.7850746,20.5164179 C10.7850746,20.5164179 10.6167164,20.5008955 10.4065672,19.8364179 C10.1964179,19.1719403 9.13014925,15.6752239 9.13014925,15.6752239 L17.6077612,10.2901493 C17.6077612,10.2901493 18.0973134,9.99164179 18.08,10.2901493 C18.08,10.2901493 18.1671642,10.3426866 17.9050746,10.5886567 C17.6429851,10.8346269 11.2459701,16.5838806 11.2459701,16.5838806" id="Shape" fill="#D1D3D4"></path>
+                            <path d="M13.440597,18.3850746 L11.158209,20.4656716 C11.158209,20.4656716 10.9791045,20.601194 10.7844776,20.5164179 L11.2238806,16.6513433" id="Shape" fill="#A7A9AC"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
