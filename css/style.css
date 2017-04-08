@@ -63,6 +63,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+h1 span {
+    font-weight: bold;
+}
+
 h2 {
     font-size: 0.98em;
     margin: 40px 0 8px 0;
