@@ -56,6 +56,7 @@ table {
 body {
     width: auto;
     font-family: 'Bitter', "Hiragino Mincho ProN W6", "HiraMinProN-W6", "Yu Mincho Demibold", "Kozuka Mincho Pro B", "KozMinPro-Bold", serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -77,7 +78,6 @@ h2 {
 
 p a{
     text-decoration: underline;
-    -webkit-font-smoothing: antialiased;
     color: black;
 }
 
@@ -147,7 +147,6 @@ ul, li {
 }
 
 
-
 #side_nav {
     position: fixed;
     display: block;
@@ -156,10 +155,20 @@ ul, li {
     width: 10%;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 620px) {
     #side_nav {
         display:none;
     }
+}
+
+.tools_list ul li {
+    float: left;
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-top: -18px;
+    margin-bottom: 24px;
+    height: 28px;
+    width: 120px;
 }
 
 .social_icons ul li{
@@ -184,6 +193,12 @@ ul, li {
 .white_space_small {
     clear: both;
     height: 24px;
+    width: 20px;
+    /*background-color: aqua;*/
+}
+.white_space_xs {
+    clear: both;
+    height: 1px;
     width: 20px;
     /*background-color: aqua;*/
 }
