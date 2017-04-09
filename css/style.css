@@ -79,6 +79,7 @@ h2 {
 p a{
     text-decoration: underline;
     color: black;
+    cursor: pointer;
 }
 
 a:hover {
