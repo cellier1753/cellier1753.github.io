@@ -7,7 +7,8 @@
 
 
 $(document).ready(function(){
-        $(".sider").delay("200").fadeIn(2000);
+        // $(".header_nav").delay("200").fadeIn(2000);
+        // $("#side_nav").delay("200").fadeIn(2000);
         $(".main").delay("2000").fadeIn(6000);
 });
 

@@ -19,21 +19,29 @@
 </head>
 <body>
  <div class="area">
-
-     <div class="sider">
-         <div id="side_nav">
+     <div class="header_nav">
+         <div class="navigation">
+             <ul>
+                 <li class="menu"><a onclick="$('body').animatescroll();">Intro</a></li>
+                 <li class="menu"><a onclick="$('.experience').animatescroll({scrollSpeed:1000});">Exp.</a></li>
+                 <li class="menu"><a onclick="$('.photography').animatescroll({scrollSpeed:1000});">Photos</a></li>
+                 <li class="menu"><a onclick="$('.contact').animatescroll({scrollSpeed:1000});">Contact</a></li>
+                 <!--<li class="cellier"><a href="http://cellier.me" target="_blank">cellier.me <img src="images/share.svg" alt=""></a></li>-->
+             </ul>
+         </div>
+     </div>
+     <div id="side_nav">
              <div class="navigation">
                  <ul>
                      <li class="menu"><a onclick="$('body').animatescroll();">Introduce</a></li>
                      <li class="menu"><a onclick="$('.experience').animatescroll({scrollSpeed:1000});">Experience</a></li>
                      <li class="menu"><a onclick="$('.photography').animatescroll({scrollSpeed:1000});">Photography</a></li>
                      <li class="menu"><a onclick="$('.contact').animatescroll({scrollSpeed:1000});">Contact</a></li>
-
                      <li class="cellier"><a href="http://cellier.me" target="_blank">cellier.me <img src="images/share.svg" alt=""></a></li>
                  </ul>
              </div>
-         </div>
      </div>
+
     <div class="main">
         <div class="intro">
             <!--<h1>Designer: <a href="http://shengbixing.com" class="underline">Shengbixing.com</a></h1>-->
