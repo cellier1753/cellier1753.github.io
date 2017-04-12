@@ -152,7 +152,7 @@ ul, li {
     width: 60%;
     min-width:320px;
     max-width: 640px;
-    margin: 80px 1% 0 0;
+    margin: 40px 1% 0 40px;
 }
 
 /*#side_nav {*/
