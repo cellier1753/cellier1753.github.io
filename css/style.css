@@ -54,6 +54,7 @@ table {
 /*shengbixing.com style*/
 
 body {
+    position: relative;
     width: auto;
     font-family: 'Bitter', "Hiragino Mincho ProN W6", "HiraMinProN-W6", "Yu Mincho Demibold", "Kozuka Mincho Pro B", "KozMinPro-Bold", serif;
     -webkit-font-smoothing: antialiased;
@@ -134,9 +135,16 @@ ul, li {
 }
 
 .area {
-    width: 86%;
-    margin: 0 auto;
-}
+     /*position: absolute;*/
+     /*top: 0; left: 0; bottom: 0; right: 0;*/
+     /*width: 86%;*/
+     max-width: 1400px;
+     margin: 0 auto;
+     height: 100%;
+     overflow: hidden;
+     background-color: #FFFFFF;
+     padding: 0 40px;
+ }
 
 .main {
     float: right;
@@ -147,16 +155,23 @@ ul, li {
     margin: 80px 1% 0 0;
 }
 
+/*#side_nav {*/
+    /*position: fixed;*/
+    /*top: 151px;*/
+    /*left: 8%;*/
+    /*width: 14%;*/
+/*}*/
 
 #side_nav {
     position: fixed;
     display: block;
     top: 151px;
-    left: 150px;
-    width: 10%;
+    /*left: 150px;*/
+    /*left: 10%;*/
+    /*width: 14%;*/
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 610px) {
     #side_nav {
         display:none;
     }
